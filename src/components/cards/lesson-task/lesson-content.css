@@ -1,0 +1,23 @@
+#lesson-content {
+    flex: 1 1 100%;
+    color: whitesmoke;
+}
+
+#title {
+    text-align: center;
+    color: #9E9689;
+}
+
+#lesson-text {
+    padding: 10px;
+    text-align: justify;
+    font-size: 2.7vh;
+    letter-spacing: .05vh;
+}
+
+.grey-line {
+    border: none;
+    background-color: #9E9689;
+    color: #9E9689;
+    height: 2px;
+}

@@ -1,0 +1,9 @@
+.info-bar {
+    padding: 10px 20px;
+    color: #9E9689;
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-between;
+}

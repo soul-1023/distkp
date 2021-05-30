@@ -1,0 +1,55 @@
+#side-panel {
+    flex: 0 1 15%;
+    
+    height: 35vh;
+    background-color: #434343;
+    transition: .5s;
+    padding: 0 15px;
+    
+    clip-path: polygon(0 0, 0 100%, 50% 90%, 100% 100%, 100% 0);
+}
+
+#side-panel:hover { transition: .5s; }
+
+.wrap-menu {
+    background-color: #313131;
+    height: 100%;
+    padding-left: 27.5px;
+    padding-right: 27.5px;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#logo img {
+    width: 17vh;
+    height: auto;
+}
+
+#menu a {
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+#menu > ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+#logo, #menu {
+    display: flex;
+    justify-content: center;
+}
+
+#logo a, #menu a {
+    text-decoration: none;
+}
+
+#logo a:hover, #menu a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+#content {
+    max-width: 100%;
+    padding: 3vh;
+    background-color: rgba(9,9,9, .3);
+
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 3vh;
+    justify-content: center;
+}
+
+#blocks-wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#back {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+#arrow {
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 5vh;
+}
+
+
+
+.col-2 {
+    flex: 0 1 50%;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+}
+
+.col-5 {
+    flex: 0 1 20%;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+}
